@@ -1,0 +1,21 @@
+# ── Cosmetics ML Modeling — requirements.txt ──────────────────────────────────
+# Install with:  pip install -r requirements.txt
+
+# Core data science
+numpy>=1.24,<3
+pandas>=1.5,<4
+scipy>=1.9,<2
+
+# Visualisation
+matplotlib>=3.6,<4
+seaborn>=0.12,<1
+
+# Machine learning
+scikit-learn>=1.2,<2
+
+# Gradient boosting models
+xgboost>=1.7,<4
+catboost>=1.2,<2
+
+# Excel file support
+openpyxl>=3.0,<4
