@@ -108,7 +108,7 @@ jupyter notebook Cinema_Analysis.ipynb
 | Scatter / JointPlot | 2 | Capacity vs sales, with regression line |
 | WordCloud | 1 | Movie popularity visualization |
 | Bubble Chart | 1 | Gender-based movie sales comparison |
-| Interactive Bokeh & Plotly & Altair | 1 | Hover, zoom, pan, save features |
+| Interactive Bokeh & Plotly & Altair | 3 | Hover, zoom, pan, save features |
 | Regression Model | 1 | Multiple Linear Regression with feature importance |
 
 ---
