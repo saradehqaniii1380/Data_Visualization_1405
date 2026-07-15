@@ -1,4 +1,4 @@
-# 🎬 Cinema Sales Data Analysis & Visualization
+# 🎬 Cinema Ticket Sales Analysis & Visualization
 
 An end-to-end data analysis and visualization project on cinema ticket sales data, including data cleaning, exploratory data analysis (EDA), statistical modeling, and interactive visualizations.
 
@@ -9,17 +9,19 @@ This project analyzes a cinema sales dataset containing **3,000 ticket records**
 The project includes:
 
 - Data loading & preprocessing
+- Data cleaning and integration
 - Exploratory Data Analysis (EDA)
-- Statistical summary & descriptive analytics
-- 20+ visualization charts (Bar, Line, Pie, Donut, Boxplot, Histogram, Heatmap, WordCloud, Bubble, Scatter, etc.)
-- Interactive visualization using **Bokeh & Plotly & Altair**
-- Full Persian text support for visualizations
+- Descriptive statistics
+- Multiple Linear Regression
+- More than 20 static visualizations
+- Interactive visualizations using Plotly, Bokeh and Altair
+- Full Persian text support
 
 ---
 
 ## 📂 Dataset Description
 
-The dataset is stored in an Excel file (`Cinema-data.xlsx`) containing 4 sheets:
+The dataset is stored in an Excel file (`Cinema-data.xlsx`) containing 4 Excel worksheets:
 
 | Sheet | Description | Columns |
 |-------|-------------|---------|
@@ -42,9 +44,9 @@ The dataset is stored in an Excel file (`Cinema-data.xlsx`) containing 4 sheets:
 | Category | Libraries |
 |----------|-----------|
 | Data Processing | `pandas`, `numpy` |
-| Visualization | `matplotlib`, `seaborn`, `wordcloud`, `bokeh` |
-| Machine Learning | `scikit-learn` (Linear Regression, KMeans, PCA, StandardScaler) |
 | Persian Text Support | `arabic-reshaper`, `python-bidi` |
+| Visualization | `matplotlib`, `seaborn`, `wordcloud`, `bokeh` |
+| Machine Learning | scikit-learn |
 | Environment | `Jupyter Notebook` |
 
 ---
@@ -68,8 +70,9 @@ arabic-reshaper
 python-bidi
 wordcloud
 bokeh
-scikit-learn
-openpyxl
+plotly
+altair
+
 ```
 
 ### 2. Place your data file
@@ -130,10 +133,10 @@ Fateme_Talebi/
 │   └── Cinema-data.xlsx            # Dataset (not included in repo)
 │
 ├── Notebook/
-│   └── Cinema_Analysis.ipynb                     # Main Jupyter Notebook with all code
-│   └── film_sales_scatter_Plot.html              # Bokeh interactive chart output
-│   └── film_sales_comparison_all_Altair.html     # Altair interactive chart output
-│   └── cinema_sales_line_Plot.html               # Plotly interactive chart output
+│   └── Cinema_Analysis.ipynb              # Main Jupyter Notebook with all code
+│   └── film_sales_scatter.html            # Bokeh interactive chart output
+│   └── film_sales_comparison_all.html     # Altair interactive chart output
+│   └── cinema_sales_line.html             # Plotly interactive chart output
 │ 
 ├── Report/
 │   └── Analysis_Report.pdf         # PDF report
@@ -174,4 +177,15 @@ A comprehensive **PDF report** is included in the repository, containing:
 
 ---
 
-> **Note:** To run the WordCloud and Persian text visualizations, you need a Persian font installed on your system (e.g., `Vazir.ttf`). Update the `font_path` in Section 12 accordingly.
+## 👩 Author
+
+**Fatemeh Talebi │ Master's student in Data Science**
+
+Data Analysis • Python • Data Visualization
+
+GitHub:
+https://github.com/fateme1talebi
+
+---
+
+> **Note:** Update the `font_path` variable in the WordCloud section according to the location of your Persian font (e.g., Vazir.ttf).
