@@ -141,7 +141,7 @@ Fateme_Talebi/
 ├── Report/
 │   └── Analysis_Report.pdf         # PDF report
 │
-├── infographic/
+├── Infographic/
 │   └── infographic.pdf
 │
 └── README.md
