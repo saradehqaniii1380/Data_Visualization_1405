@@ -133,6 +133,24 @@ cinema-sales-analysis/
 │
 └── report/                     # PDF report
     └── Analysis_Report.pdf
+cinema-sales-analysis/
+│
+├── Data/
+│   └── Cinema-data.xlsx            # Dataset (not included in repo)
+│
+├── Notebook/
+│   └── Cinema_Analysis.ipynb                     # Main Jupyter Notebook with all code
+│   └── film_sales_scatter_Plot.html              # Bokeh interactive chart output
+│   └── film_sales_comparison_all_Altair.html     # Altair interactive chart output
+│   └── cinema_sales_line_Plot.html               # Plotly interactive chart output
+│ 
+├── Report/
+│   └── Analysis_Report.pdf         # PDF report
+│
+├── infographic/
+│   └── infographic.pdf
+│
+└── README.md
 ```
 
 ---
