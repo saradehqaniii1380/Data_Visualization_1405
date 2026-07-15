@@ -12,7 +12,7 @@ The project includes:
 - Exploratory Data Analysis (EDA)
 - Statistical summary & descriptive analytics
 - 20+ visualization charts (Bar, Line, Pie, Donut, Boxplot, Histogram, Heatmap, WordCloud, Bubble, Scatter, etc.)
-- Interactive visualization using **Bokeh**
+- Interactive visualization using **Bokeh & Plotly & Altair**
 - Full Persian text support for visualizations
 
 ---
@@ -124,16 +124,7 @@ jupyter notebook Cinema_Analysis.ipynb
 ## 📁 Project Structure
 
 ```
-cinema-sales-analysis/
-│
-├── Cinema_Analysis.ipynb       # Main Jupyter Notebook with all code
-├── Cinema-data.xlsx            # Dataset (not included in repo)
-├── film_sales_scatter.html     # Bokeh interactive chart output
-├── README.md                   # Project documentation
-│
-└── report/                     # PDF report
-    └── Analysis_Report.pdf
-cinema-sales-analysis/
+Fateme_Talebi/
 │
 ├── Data/
 │   └── Cinema-data.xlsx            # Dataset (not included in repo)
